@@ -125,6 +125,11 @@ Use putty
 ## Step-06: Update Worker Nodes Security Group to allow all traffic
 - We need to allow `All Traffic` on worker node security group
 
+
+## To create kubeconfig file from eks cluster
+ aws eks --region us-east-1 update-kubeconfig --name ekscluster1234
+
+
 ## Additional References
 - https://docs.aws.amazon.com/eks/latest/userguide/enable-iam-roles-for-service-accounts.html
 - https://docs.aws.amazon.com/eks/latest/userguide/create-service-account-iam-policy-and-role.html
